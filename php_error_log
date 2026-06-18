@@ -1,0 +1,50 @@
+[17-Jun-2026 16:48:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 4025 CONSTRAINT `books.servicios_book` failed for `restaurant`.`books` in C:\xampp\htdocs\reservas_1\api\models\put.model.php:53
+Stack trace:
+#0 C:\xampp\htdocs\reservas_1\api\models\put.model.php(53): PDOStatement->execute()
+#1 C:\xampp\htdocs\reservas_1\api\controllers\put.controller.php(13): PutModel::putData('books', Array, '9591779127290', 'num_book')
+#2 C:\xampp\htdocs\reservas_1\api\routes\services\put.php(81): PutController::putData('books', Array, '9591779127290', 'num_book')
+#3 C:\xampp\htdocs\reservas_1\api\routes\routes.php(97): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\reservas_1\api\controllers\routes.controller.php(13): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\reservas_1\api\index.php(29): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\reservas_1\api\models\put.model.php on line 53
+[17-Jun-2026 16:49:08 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 4025 CONSTRAINT `books.servicios_book` failed for `restaurant`.`books` in C:\xampp\htdocs\reservas_1\api\models\put.model.php:53
+Stack trace:
+#0 C:\xampp\htdocs\reservas_1\api\models\put.model.php(53): PDOStatement->execute()
+#1 C:\xampp\htdocs\reservas_1\api\controllers\put.controller.php(13): PutModel::putData('books', Array, '9591779127290', 'num_book')
+#2 C:\xampp\htdocs\reservas_1\api\routes\services\put.php(81): PutController::putData('books', Array, '9591779127290', 'num_book')
+#3 C:\xampp\htdocs\reservas_1\api\routes\routes.php(97): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\reservas_1\api\controllers\routes.controller.php(13): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\reservas_1\api\index.php(29): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\reservas_1\api\models\put.model.php on line 53
+[17-Jun-2026 16:49:26 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 4025 CONSTRAINT `books.servicios_book` failed for `restaurant`.`books` in C:\xampp\htdocs\reservas_1\api\models\put.model.php:53
+Stack trace:
+#0 C:\xampp\htdocs\reservas_1\api\models\put.model.php(53): PDOStatement->execute()
+#1 C:\xampp\htdocs\reservas_1\api\controllers\put.controller.php(13): PutModel::putData('books', Array, '8741774990215', 'num_book')
+#2 C:\xampp\htdocs\reservas_1\api\routes\services\put.php(81): PutController::putData('books', Array, '8741774990215', 'num_book')
+#3 C:\xampp\htdocs\reservas_1\api\routes\routes.php(97): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\reservas_1\api\controllers\routes.controller.php(13): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\reservas_1\api\index.php(29): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\reservas_1\api\models\put.model.php on line 53
+[17-Jun-2026 16:53:26 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 4025 CONSTRAINT `books.servicios_book` failed for `restaurant`.`books` in C:\xampp\htdocs\reservas_1\api\models\put.model.php:53
+Stack trace:
+#0 C:\xampp\htdocs\reservas_1\api\models\put.model.php(53): PDOStatement->execute()
+#1 C:\xampp\htdocs\reservas_1\api\controllers\put.controller.php(13): PutModel::putData('books', Array, '8741774990215', 'num_book')
+#2 C:\xampp\htdocs\reservas_1\api\routes\services\put.php(81): PutController::putData('books', Array, '8741774990215', 'num_book')
+#3 C:\xampp\htdocs\reservas_1\api\routes\routes.php(97): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\reservas_1\api\controllers\routes.controller.php(13): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\reservas_1\api\index.php(29): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\reservas_1\api\models\put.model.php on line 53
+[17-Jun-2026 16:53:30 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 4025 CONSTRAINT `books.servicios_book` failed for `restaurant`.`books` in C:\xampp\htdocs\reservas_1\api\models\put.model.php:53
+Stack trace:
+#0 C:\xampp\htdocs\reservas_1\api\models\put.model.php(53): PDOStatement->execute()
+#1 C:\xampp\htdocs\reservas_1\api\controllers\put.controller.php(13): PutModel::putData('books', Array, '8741774990215', 'num_book')
+#2 C:\xampp\htdocs\reservas_1\api\routes\services\put.php(81): PutController::putData('books', Array, '8741774990215', 'num_book')
+#3 C:\xampp\htdocs\reservas_1\api\routes\routes.php(97): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\reservas_1\api\controllers\routes.controller.php(13): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\reservas_1\api\index.php(29): RoutesController->index()
+#6 {main}
+  thrown in C:\xampp\htdocs\reservas_1\api\models\put.model.php on line 53
