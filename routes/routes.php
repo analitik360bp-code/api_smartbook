@@ -35,6 +35,14 @@ if(count($routesArray) == 1 && isset($_SERVER['REQUEST_METHOD'])){
 	$table = explode("?", $routesArray[1])[0];
 
 	/*=============================================
+	Webhook WhatsApp (acceso público sin Authorization)
+	=============================================*/
+	if ($table === 'whatsapp') {
+		include "services/whatsapp.php";
+		return;
+	}
+
+	/*=============================================
 	Validar llave secreta
 	=============================================*/
 
